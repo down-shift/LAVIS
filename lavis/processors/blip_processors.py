@@ -140,6 +140,9 @@ class BlipImageTrainProcessor(BlipImageBaseProcessor):
 
     def __call__(self, item):
         return self.transform(item)
+     
+    def get_cfg(self, cfg):
+        return cfg
 
     @classmethod
     def from_config(cls, cfg=None):
