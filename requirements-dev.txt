@@ -10,6 +10,7 @@ opendatasets
 packaging
 pre-commit
 pycocotools
+pycocoevalcap
 python-magic
 scikit-image
 timm==0.4.12
